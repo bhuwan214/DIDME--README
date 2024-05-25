@@ -36,10 +36,8 @@ path: path.resolve(\_\_dirname, 'dist'),
 
 - add webpack.config.js "
 
-      module.exports = {
-
-     module: {
-     rules: [
+      module.exports = {module: {
+      rules: [
        {
       test: /\.css$/,
        use: [
