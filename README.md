@@ -38,19 +38,19 @@ path: path.resolve(\_\_dirname, 'dist'),
 
       module.exports = {
 
-  module: {
-  rules: [
-  {
-  test: /\.css$/,
-  use: [
-  { loader: 'style-loader' },
-  {
-  loader: 'css-loader',
-  options: {
-  modules: true,
-  },
-  },
-  { loader: 'sass-loader' },
+     module: {
+     rules: [
+       {
+      test: /\.css$/,
+       use: [
+      { loader: 'style-loader' },
+       {
+      loader: 'css-loader',
+     options: {
+      modules: true,
+     },
+      },
+     { loader: 'sass-loader' },
 
              {
                   test: /\.(png|svg|jpg|jpeg|gif)$/i,
