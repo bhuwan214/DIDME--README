@@ -14,3 +14,19 @@ git checkout branch-name
 git checkout -b <branch name>
 
 ```
+
+#### To check the connection to the remote or change the remote
+
+```github
+
+# Check the current remote URLs
+git remote -v
+
+# Remove the remote origin
+git remote remove origin
+
+# Verify the removal
+git remote -v
+
+
+```
